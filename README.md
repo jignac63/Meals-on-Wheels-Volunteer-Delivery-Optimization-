@@ -1,27 +1,31 @@
-## Meals on Wheels – Volunteer Delivery Optimization
+# Meals on Wheels – Volunteer Delivery Optimization
 
-This project applies Python and optimization techniques to streamline volunteer delivery routes for Meals on Wheels, reducing walking distances and parking costs.
+Overview
+This project applies Python and optimization techniques to streamline volunteer delivery routes for Meals on Wheels. The goal was to minimize walking distances and parking costs, improving operational efficiency for meal delivery services.
 
-Technologies Used
-	•	Python
-	•	GAMS
-	•	Google Maps API
-	•	K-Means Clustering
-	•	PuLP
-	•	Excel
-	•	Folium
 
-Key Features
-	•	Clustered client locations into optimal delivery zones
-	•	Assigned volunteers to minimize walking time
-	•	Created interactive maps to visualize routes
+1. Tools and Technologies
+	•	Programming & Analysis: Python
+	•	Optimization Tools: GAMS, PuLP
+	•	Visualization & Mapping: Folium, Google Maps API
+	•	Clustering: K-Means
+	•	Data Handling: Excel
 
-Dataset
-	•	251 delivery records
-	•	Parking zone data
+2. Key Highlights
+	•	Clustered client locations into optimal delivery zones using K-Means clustering.
+	•	Assigned volunteers strategically to minimize walking distance and reduce delivery overlap.
+	•	Created interactive maps with Folium to visualize optimized routes.
 
-Outcome
-Achieved a 25% reduction in average volunteer walking distance using route clustering and integer programming.
 
-How to View
-Open the notebook or PDF in this repository for full analysis and visualizations.
+3. Dataset
+	•	251 delivery records with client locations
+	•	Parking zone data for route planning and volunteer allocation
+
+4. Outcome
+	•	Achieved a 25% reduction in average volunteer walking distance.
+	•	Eliminated route overlaps using a mix of clustering and integer programming.
+
+5. How to Use
+	1.	Open the Jupyter Notebook in the repository to explore the full optimization process.
+	2.	Review the PDF report for consolidated results and visualizations.
+	3.	Interact with Folium maps to see the optimized delivery zones and routes.
