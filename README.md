@@ -23,5 +23,5 @@ This project uses Python and optimization tools to improve volunteer delivery ro
 Reduced average volunteer walking distance by 25% using route clustering and integer programming.
 
 ## How to Run
-1. Install required libraries using `requirements.txt`
-2. Open and run `meals_on_wheels_optimization.ipynb`
+Project:
+Check the notebook/PDF in this repository for full analysis and visuals.
