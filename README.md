@@ -23,5 +23,5 @@ Dataset
 Outcome
 Achieved a 25% reduction in average volunteer walking distance using route clustering and integer programming.
 
-# How to View
+How to View
 Open the notebook or PDF in this repository for full analysis and visualizations.
